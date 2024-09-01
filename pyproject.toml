@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flask configuration"
+version = "0.1.0"
+description = ""
+authors = ["Nikita <nl_h@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+bp = "^0.0.4"
+pydantic = "^2.8.2"
+loguru = "^0.7.2"
+pydantic-settings = "^2.4.0"
+scikit-learn = "^1.5.1"
+wemake-python-styleguide = "^0.19.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
